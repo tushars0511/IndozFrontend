@@ -20,7 +20,7 @@ import ContactMailIcon from "@mui/icons-material/ContactMail";
 import CampaignIcon from "@mui/icons-material/Campaign";
 import MeetingRoomIcon from "@mui/icons-material/MeetingRoom";
 
-const API_BASE = process.env.REACT_APP_API_BASE || "http://ec2-15-134-208-12.ap-southeast-2.compute.amazonaws.com:3000/api";
+const API_BASE = process.env.REACT_APP_API_BASE || "http://ec2-13-238-255-87.ap-southeast-2.compute.amazonaws.com:3000/api";
 
 const PageWrapper = styled(Box)(({ theme }) => ({
   minHeight: "100vh",

@@ -27,10 +27,10 @@ import CloseIcon from "@mui/icons-material/Close";
 import CheckCircleIcon from "@mui/icons-material/CheckCircle";
 import { styled, alpha } from "@mui/material/styles";
 
-const API_BASE = "http://ec2-15-134-208-12.ap-southeast-2.compute.amazonaws.com:3000/ads";
+const API_BASE = "http://ec2-13-238-255-87.ap-southeast-2.compute.amazonaws.com:3000/ads";
 
 async function fetchAds() {
-  const res = await fetch("http://ec2-15-134-208-12.ap-southeast-2.compute.amazonaws.com:3000/ads");
+  const res = await fetch("http://ec2-13-238-255-87.ap-southeast-2.compute.amazonaws.com:3000/ads");
   if (!res.ok) throw new Error("Failed to fetch ads");
   const data = await res.json();
   return data.ads || [];

@@ -31,7 +31,7 @@ import CloseIcon from "@mui/icons-material/Close";
 import CheckCircleIcon from "@mui/icons-material/CheckCircle";
 import { styled, alpha } from "@mui/material/styles";
 
-const API_BASE = "http://ec2-15-134-208-12.ap-southeast-2.compute.amazonaws.com:3000/api/articles";
+const API_BASE = "http://ec2-13-238-255-87.ap-southeast-2.compute.amazonaws.com:3000/api/articles";
 
 async function fetchArticles() {
   const res = await fetch(API_BASE);
